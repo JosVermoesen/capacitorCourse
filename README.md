@@ -1,19 +1,20 @@
 # capacitorCourse Ionic
 
 # Start a new app
-ionic start capacitorCourse blank --type=angular --capacitor --package-id=com.devdactic.capacourse
+`ionic start capacitorCourse blank --type=angular --capacitor --package-id=be.vsoft.capacourse`
 
 # Build the web part of our app
-ionic build
+`ionic build`
 
 # Generate the native platform
-npx cap add ios/android
+Add capacitor platform: `npm install @capacitor/android`
+Add ios and or android: `npx cap add ios/android`
 
 # Standard workflow
-ionic build && npx cap copy
+`ionic build && npx cap copy`
 
 # Livereload
-ionic cap run ios -l --external
+`ionic cap run ios -l --external`
 
 ## Install and update the frameworks
 
